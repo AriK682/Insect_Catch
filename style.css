@@ -2,8 +2,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
-    background-color: #516dff;
+    color: #813404;
+   background-image: url('_\ \(58\).jpeg');
+    background-size: cover;
+    background-position: center;
+   
     height: 100vh;
     overflow: hidden;
     margin: 0;
@@ -12,8 +15,8 @@ body {
 
 .btn{
     border: 0;
-    background-color: #fff;
-    color: #516dff;
+    background-color: #7e3900;
+    color: #f8f9fe;
     padding: 15px 20px;
     font-family: inherit;
     cursor: pointer;
@@ -70,8 +73,8 @@ h1{
 /* Choose Insect Button */
 .choose-insect-btn{
     background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #925009;
+    color: #954a04;
     cursor: pointer;
     font-family: inherit;
     width: 150px;
@@ -79,8 +82,8 @@ h1{
 }
 
 .choose-insect-btn:hover{
-    background-color: #fff;
-    color: #516dff;
+    background-color: #622c03;
+    color: #c16f0b;
 }
 
 .choose-insect-btn:active{
@@ -102,7 +105,7 @@ h1{
 
 .message{
     line-height: 1.7;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(246, 241, 241, 0.5);
     width: 100%;
     padding: 20px;
     z-index:100;
@@ -115,7 +118,7 @@ h1{
     transition: transform 0.4s ease-in;
 }
 
-message.visible{
+.message.visible{
     opacity: 1;
     transform: translate(-50%, 150%);
 }
